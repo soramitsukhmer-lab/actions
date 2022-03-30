@@ -22,7 +22,7 @@ jobs:
       -
         name: Set up Docker Buildx
         id: buildx
-        uses: soramitsukhmer-lab/actions/setup-docker@master
+        uses: soramitsukhmer-lab/actions/setup-docker@main
       -
         name: Inspect builder
         run: |
